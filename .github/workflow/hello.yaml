@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   hello_job:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Welcome Step
         run: echo "DevOps Week 11"
